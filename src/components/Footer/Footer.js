@@ -1,19 +1,19 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillThunderbolt, AiOutlineMail, AiOutlineTwitter  } from 'react-icons/ai';
+import {IoIosCall} from 'react-icons/io'
+import  {SocialIcons}  from '../Header/HeaderStyles';
+import { CompanyContainer, ContactIcons, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
+          <LinkTitle><ContactIcons><IoIosCall color='#1732da' size="3rem"/></ContactIcons></LinkTitle>
           <LinkItem href="tel:+2349025419826">+234-9025419826</LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
+          <LinkTitle><ContactIcons><AiOutlineMail color='#fff' size="2.5rem"/></ContactIcons></LinkTitle>
           <LinkItem href="mailto:deddypiper@gmail.com">deddypiper@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
@@ -22,11 +22,11 @@ const Footer = () => {
           <Slogan> Building your Dreams!</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href='http://github.com/'>
+          <SocialIcons href='https://github.com/deddypiper'>
             <AiFillGithub size='3rem' />
           </SocialIcons>
           <SocialIcons href='http://twitter.com/'>
-            <AiFillTwitter size='3rem' />
+            <AiOutlineTwitter  size='3rem' />
           </SocialIcons>
           <SocialIcons href='http://linkedin.com/'>
             <AiFillLinkedin size='3rem' />

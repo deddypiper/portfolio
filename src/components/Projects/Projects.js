@@ -6,9 +6,11 @@ import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <Section>
+    <SectionDivider />
+    <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
       {projects.map(({id, image, title, description, tags, source, visit}) => (
-        <BlogCard key={id}>
+        <BlogCard  key={id}>
           <Img src={image}/>
           <TitleContent>
             <HeaderThree title={title}></HeaderThree>
@@ -24,8 +26,8 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href="http://"></ExternalLinks>
-            <ExternalLinks href="http://"></ExternalLinks>
+          <ExternalLinks href={visit}>Source</ExternalLinks>
+              <ExternalLinks href={source}>Code</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}

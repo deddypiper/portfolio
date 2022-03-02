@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitter } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineTwitter } from 'react-icons/ai';
+import { BsFillBriefcaseFill } from 'react-icons/bs';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
@@ -10,7 +10,7 @@ const Header = () =>  (
     <Div1>
       <Link href='/'>
         <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
-          <DiCssdeck size='3rem' /> <span>Portfolio</span>
+          <BsFillBriefcaseFill size='3rem' />  <span> &nbsp; Portfolio</span>
         </a>
       </Link>
     </Div1>
@@ -32,20 +32,21 @@ const Header = () =>  (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='http://github.com/'>
-        <AiFillGithub size='3rem' />
-      </SocialIcons>
-      <SocialIcons href='http://twitter.com/'>
-        <AiFillTwitter size='3rem' />
-      </SocialIcons>
-      <SocialIcons href='http://linkedin.com/'>
-        <AiFillLinkedin size='3rem' />
-      </SocialIcons>
-      <SocialIcons href='http://instagram.com/'>
-        <AiFillInstagram size='3rem' />
-      </SocialIcons>
-    </Div3>
+        <SocialIcons href="https://github.com/deddypiper">
+          <AiFillGithub size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://linkedin.com/in/desmond-uyi-6a00aa225">
+          <AiFillLinkedin size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://google.com">
+          <AiFillInstagram size="3rem"/>
+        </SocialIcons>
+        <SocialIcons href="https://google.com">
+          <AiOutlineTwitter  size="3rem"/>
+        </SocialIcons>
+      </Div3>
   </Container>
+  
 );
 
 export default Header;

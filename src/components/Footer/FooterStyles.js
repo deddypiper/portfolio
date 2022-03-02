@@ -157,3 +157,11 @@ export const LinkTitle = styled.h4`
 		margin-bottom: 8px;
 	}
 `
+export const ContactIcons = styled.div`
+transition: 0.3s ease;
+border-radius: 50px;
+  padding: 2px,8px;
+&:hover {
+    transform: scale(1.05); 
+  }
+`;

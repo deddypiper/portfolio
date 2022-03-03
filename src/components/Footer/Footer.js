@@ -14,7 +14,7 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle><ContactIcons><AiOutlineMail color='#fff' size="2.5rem"/></ContactIcons></LinkTitle>
-          <LinkItem href="mailto:deddypiper@gmail.com">deddypiper@gmail.com</LinkItem>
+          <LinkItem href="mailtocodepipr@gmail.com">codepipr@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
@@ -22,18 +22,18 @@ const Footer = () => {
           <Slogan> Building your Dreams!</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href='https://github.com/deddypiper'>
-            <AiFillGithub size='3rem' />
-          </SocialIcons>
-          <SocialIcons href='http://twitter.com/'>
-            <AiOutlineTwitter  size='3rem' />
-          </SocialIcons>
-          <SocialIcons href='http://linkedin.com/'>
-            <AiFillLinkedin size='3rem' />
-          </SocialIcons>
-          <SocialIcons href='http://instagram.com/'>
-            <AiFillInstagram size='3rem' />
-          </SocialIcons>
+        <SocialIcons href="https://github.com/deddypiper">
+          <AiFillGithub size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://linkedin.com/in/desmond-uyi-6a00aa225">
+          <AiFillLinkedin size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://instagram.com/codepipr">
+          <AiFillInstagram size="3rem"/>
+        </SocialIcons>
+        <SocialIcons href="https://twitter.com/deddypiper">
+          <AiOutlineTwitter  size="3rem"/>
+        </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

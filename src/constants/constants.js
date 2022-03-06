@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'E-commerce WebApp',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    description: "Using React, Commerce.js, Stripe and Node this e-commerce app called Piper E-commerce shop was built from start to finish by me. Piper E-commerce Shop contains all working parts of a functioning everyday e-commerce app ranging from products selection, cart addition, checkout, card payment to shopping confirmation",
       image: '/images/001.png',
       tags: ['Commerce.js', 'Stripe', 'React', 'Node'],
     source: 'https://github.com/deddypiper/E-commerce_Shop',
@@ -9,28 +9,28 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Breathing App',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/002.png',
-    tags: ['JavaScript', 'CSS', 'HTML'],
-    source: '#',
-    visit: 'https://codepipr-breathing-app.netlify.app/',
-    id: 1,
-  },
-  {
     title: 'Colour-Hue Generator',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    description: "This is an app that takes a color's hex-code and returns varieties of the color in ascension to white color and descension to black color. In this project React and Node was employed for effective development",
       image: '/images/003.png',
       tags: ['React', 'Node'],
     source: 'https://github.com/deddypiper/Colour_Generator',
     visit: 'https://colour-generatorr.netlify.app/',
+    id: 1,
+  },
+  {
+    title: 'Breathing App',
+    description:"I built this breathing app using HTML, CSS and Vanilla JavaScript. A simple but yet powerful tool designed to regulate breathing and relax one's mind",
+    image: '/images/002.png',
+    tags: ['JavaScript', 'CSS', 'HTML'],
+    source: '#',
+    visit: 'https://codepipr-breathing-app.netlify.app/',
     id: 2,
   },
   {
     title: 'Submenu',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    description: "This responsive subdivision of a realtime WebApp was built using React and CSS to offer optimum user xperience to web Users.",
     image: '/images/004.png',
-    tags: ['React', 'Javascript', 'CSS'],
+    tags: ['React', 'CSS'],
     source: 'https://github.com/deddypiper/Submenus',
     visit: 'https://submenus.netlify.app/',
     id: 3,
@@ -38,7 +38,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: 'Began my journey', },
-  { year: 2020, text: 'Collaborated on a lot of projects', },
-  { year: 2021, text: 'Work as a freelance developer', },
+  { year: 2019, text: 'Began my journey into the fascinating world of Web Development', },
+  { year: 2020, text: 'Collaborated on a lot of projects to hone and improve my acquired skills', },
+  { year: 2021, text: 'Works as a freelance Web developer ', },
 ];

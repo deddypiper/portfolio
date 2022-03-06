@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillThunderbolt, AiOutlineMail, AiOutlineTwitter  } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineMail, AiOutlineTwitter } from 'react-icons/ai';
 import {IoIosCall} from 'react-icons/io'
 import  {SocialIcons}  from '../Header/HeaderStyles';
 import { CompanyContainer, ContactIcons, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -10,7 +10,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle><ContactIcons><IoIosCall color='#1732da' size="3rem"/></ContactIcons></LinkTitle>
-          <LinkItem href="tel:+2349025419826">+234-9025419826</LinkItem>
+          <LinkItem href="tel:+2347061994070">+234-7061994070</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle><ContactIcons><AiOutlineMail color='#fff' size="2.5rem"/></ContactIcons></LinkTitle>
@@ -19,7 +19,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan> Building your Dreams!</Slogan>
+          <Slogan> Building dreams a code at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href="https://github.com/deddypiper">

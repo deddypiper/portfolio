@@ -86,6 +86,8 @@ export const Slogan = styled.p`
 	min-width: 280px;
 	letter-spacing: 0.02em;
 	font-size: 18px;
+	font-style: italic;
+	font-weight: 300;
 	line-height: 30px;
 	padding: 1rem;
 

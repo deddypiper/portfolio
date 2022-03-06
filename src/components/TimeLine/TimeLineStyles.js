@@ -152,3 +152,7 @@ export const CarouselButtonDot = styled.div`
   width: 3px;
   height: 3px;
 `
+export const Anchor = styled.a`
+  text-decoration: none;
+  color: #80edec;
+`
